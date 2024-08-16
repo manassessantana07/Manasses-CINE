@@ -1,0 +1,146 @@
+body {
+    color:rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    margin: 0 px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+    padding: 0px;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(122, 65, 0);
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.chamada {
+    background: rgb(122,65,0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+    font-size: 31px;
+}
+
+p {
+    font-size: 21px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+.categoria-single {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.singles {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-single img {
+    opacity: 0.5;
+}
+.categoria-single img:hover {
+    opacity: 5.0;
+    border: 2px solid rgb(122, 65, 0);
+}
+
+.singles h2 {
+    color: rgb(122, 65, 0)
+}
+
+.categoria-sucessos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.cantores {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-sucessos img {
+    opacity: 0.5;
+}
+
+.categoria-sucessos img:hover {
+    opacity: 5.0;
+    border: 2px solid rgb(122,65,0)
+}
+
+.cantores h3 {
+    color: rgb(122, 65, 0)
+}
+
+.categoria-filmes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.filmes {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-filmes img {
+    opacity: 0.5;
+}
+
+.categoria-filmes img:hover {
+    opacity: 5.0;
+    border: 2px solid rgb(122, 65, 0)
+}
+
+.filmes h4 {
+    color: rgb(122, 65, 0)
+}
+
+.categoria-shadowb {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.shadowb {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-shadowb img {
+    opacity: 0.5;
+}
+
+.categoria-shadowb img:hover {
+    opacity: 5.0;
+    border: 2px solid rgb(122, 65, 0)
+}
+
+.shadowb h5 {
+    color:rgb(122, 65, 0)
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 200px;
+    }
+}
+
+
+
